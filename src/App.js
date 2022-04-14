@@ -1,11 +1,14 @@
-
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      Hello World!!!
-    </div>
+    <>
+      <Header />
+      <main style={{ minHeight: "90vh" }}></main>
+      <Footer />
+    </>
   );
 }
 
